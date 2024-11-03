@@ -82,7 +82,7 @@ class MedicalCenterCard extends StatelessWidget {
                         Icon(Icons.directions_walk, color: Colors.blue, size: 16),
                         Text('${center.distanceKm}km/${center.distanceMinutes} min',
                             style: TextStyle(color: Colors.black, fontSize: 12)),
-                        SizedBox(width: 25),
+                        SizedBox(width: 20),
                         Icon(Icons.local_hospital, color: Colors.red,),
                         Text('Hospital', style: TextStyle(color: Colors.black, fontSize: 12)),
                       ],
